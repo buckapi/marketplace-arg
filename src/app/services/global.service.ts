@@ -15,8 +15,10 @@ import { ImageUploadService } from '@services/image-upload.service';
   providedIn: 'root',
 })
 export class GlobalService {
-  private apiUrl = 'http://localhost:8090/api/collections/images/records';
-  private apirestUrl = 'http://localhost:8090/api/';
+  // private apiUrl = 'http://localhost:8090/api/collections/images/records';
+  // private apirestUrl = 'http://localhost:8090/api/';
+  private apiUrl = 'https://db.buckapi.com:8090/api/collections/images/records';
+  private apirestUrl = 'https://db.buckapi.com:8090/api/';
   employes: any[] = [];
   configs: any[] = [];
   info: any={"name":""}
