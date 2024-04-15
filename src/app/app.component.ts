@@ -89,7 +89,7 @@ export class AppComponent {
       );
       this.global.getProducts().subscribe(
         (data) => {
-          this.global.employes = data; // Asigna los registros obtenidos a la variable 'registros'
+          this.global.products = data.items; // Asigna los registros obtenidos a la variable 'registros'
           // console.log(data); // respuesta
         },
         (error) => {

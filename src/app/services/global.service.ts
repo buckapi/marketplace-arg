@@ -20,6 +20,7 @@ export class GlobalService {
   private apiUrl = 'https://db.buckapi.com:8090/api/collections/images/records';
   private apirestUrl = 'https://db.buckapi.com:8090/api/';
   employes: any[] = [];
+  products: any[] = [];
   configs: any[] = [];
   info: any={"name":""}
   categories: any[] = [];
